@@ -1,0 +1,6 @@
+html,body{background:#999;color:#000;}
+a{color: #393;}
+#doc{background:#fff;border:1em solid #fff;}
+h1{margin:0;padding:.2em 0;font-size:300%;font-family:calibri,helvetica,arial,sans-serif;color:#444;text-shadow: 3px 3px 3px #ccc}
+h2{margin:0;padding:.2em 0;font-size:150%;font-family:calibri,helvetica,arial,sans-serif;color:#333;}
+#ft{text-align:right;margin:3em 0 0 0;font-size:80%;}

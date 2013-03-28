@@ -1,0 +1,11 @@
+/* Define the basic CSS used by EditInPlace */
+
+        .eip_savebutton { background-color: #36f; color: #fff; }
+        .eip_cancelbutton { background-color: #000; color: #fff; }
+        .eip_saving { background-image: url('ajax-loader.gif'); background-repeat: no-repeat; background-position: left; color: #903; padding: 0 0 0 20px; }
+        .eip_empty { color: #afafaf; border: 1px solid #afafaf; padding: 3px;}
+        .eip_editfield { background-color: #FEFFDA; }
+        .eip_mouseoverButtonSave{background-color:red;}
+        .eip_mouseoverButtonCancel{background-color:red;}
+
+

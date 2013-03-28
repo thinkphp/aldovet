@@ -1,0 +1,7 @@
+html,body{background:#4E0A63;color:#000;font-family: helvetica,arial,verdana;}
+#doc{background:#fff;border:1.5em solid #fff;-moz-border-radius:10px;-webkit-border-radius: 10px;border-radius: 10px}
+pre code {font-size: 17px;background: #ffff44}
+h1{text-shadow:1px 3px 3px #A86FB2;margin:0;padding:.2em 0;font-size:400%;font-family:calibri,helvetica,arial,sans-serif;color:#333;}
+h2{margin:0;padding:.2em 0;font-size:150%;font-family:calibri,helvetica,arial,sans-serif;color:#333;}
+a{color: #7C0B90;}
+#ft{text-align:right;margin:3em 0 0 0;font-size:80%;}

@@ -1,0 +1,19 @@
+html,body{background:#69c;margin:0;padding:0;}
+#doc{background:#fff;border:2em solid #fff;margin:20px}
+h2{font-family:Calibri,Arial,Sans-serif;font-size:150%;margin:1em 0;padding:0;font-weight: bold}
+h1{text-shadow:1px 3px 3px #69c;margin:0;padding:.2em 0;font-size:400%;font-family:calibri,helvetica,arial,sans-serif;color:#205D69;}
+body {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 80%;}
+a{color: #205D69;}
+pre code {font-size: 20px;background: #ffff44}
+ /* start css for barchart */
+ .barchart caption {font-size: 90%;font-style:italic;}
+ table.barchart {background: url(bg_fade.png) repeat-x left top;-moz-box-shadow:4px 4px 10px rgba(33,33,33,.8);-webkit-box-shadow:4px 4px 10px rgba(33,33,33,.8);margin-bottom: 30px}
+ .barchart  td.value {background-image: url(gridline58.gif);background-repeat: repeat-x;background-position: left top;border-left: 1px solid #e5e5e5;border-right: 1px solid #e5e5e5;padding:0;border-bottom: none;background-color:transparent;}
+ .barchart  td{padding: 4px 6px;border-bottom:1px solid #e5e5e5;border-left:1px solid #e5e5e5;background-color:#fff;}
+ .barchart  .auraltext{position: absolute;font-size: 0;left: -1000px;}
+ .barchart  td.first {border-top:1px solid #e5e5e5;}
+ .barchart  td.last {border-bottom:1px solid #e5e5e5;}
+ .barchart  td.value img {vertical-align: middle;margin: 5px 5px 5px 0;}
+ /* end css for barchart */
+ #ft{text-align: left;margin:3em 0 0 0;font-size:80%;}
+

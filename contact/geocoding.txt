@@ -1,0 +1,10 @@
+latitude
+44.411642929826390
+longitude
+26.01409077644348
+
+
+<img src="http://gws.maps.yahoo.com/mapimage?MAPDATA=PRc9d.d6wXUIVTDlZeBWN06SQAIUU9IIPA7T2TS3i9kQZNDrvUxpTEvS88H7epmQVEB6N73W56dzUb6wY3lqmo.JG9C3jiePDVpNWFKVIsL9V1o31hNtUdQEcz1uZlZQlU65qX0no7PI1nJ6ZthigZn99MvuNZb.bz3JMxgMLnnk5oPSiA--&mvt=m&cltype=onnetwork&.intl=us&appid=YD-4g6HBf0_JX0yq2IsdnV1Ne9JTpKxQ3Miew--&oper=&_proxy=ydn,xml" alt="photo">          
+<img src="http://gws.maps.yahoo.com/mapimage?MAPDATA=PRc9d.d6wXUIVTDlZeBWN06SQAIUU9IIPA7T2TS3i9kQZNDrvUxpTEvS88H7epmQVEB6N73W56dzUb6wY3lqmo.JG9C3jiePDVpNWFKVIsL9V1o31hNtUdQEcz1uZlZQlU65qX0no7PI1nJ6ZthigZn99MvuNZb.bz3JMxgMLnnk5oPSiA--&mvt=m&cltype=onnetwork&.intl=us&appid=YD-4g6HBf0_JX0yq2IsdnV1Ne9JTpKxQ3Miew--&oper=&_proxy=ydn,xml" alt="photo">          
+<img src="http://gws.maps.yahoo.com/mapimage?MAPDATA=IKvr.ed6wXXzCa_C599EB9.843u4cSEJPrrJftt6MBh1Njh0wCA1ArO2L1taHV9nKGFdxPhT8u1ZL07WHQy1mjUs2.lTxpDNhdvC8KlTzoZwJLjlEYKeMf9aT7CUJOA9_EXXmUnD.oZ.KpZqYxllgyw_OyB6UfIbZEgkNGLHCZ_TDF0f3g--&mvt=m&cltype=onnetwork&.intl=us&appid=YD-4g6HBf0_JX0yq2IsdnV1Ne9JTpKxQ3Miew--&oper=&_proxy=ydn,xml" alt="photo">          
+

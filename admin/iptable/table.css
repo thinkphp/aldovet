@@ -1,0 +1,73 @@
+   h2{font-size: 30px;font-family: helvetica;text-shadow: 3px 3px 3px #ffff00}
+
+   table {margin:1em 0; border:none;text-align: center}
+
+   table tr td {border: none;}
+
+   table {border:1px solid #036;}
+
+   th {background:#036; color:#fff; border:none; border-bottom:1px solid #fff;}
+
+   table tr:hover{background: #FAFFE5;cursor: pointer;color: #000;}
+
+   table a{background: #99CD2C;color: #fff;text-decoration: none;padding: 2px;border: 1px solid #99CD2C}
+
+   table a:hover{background: #fff;color: #99CD2C;text-decoration: none;padding: 2px}
+
+   .hilite {background: #CCFFAE;cursor: pointer;color: #292;}
+
+   .addcolor {background: #E9E9E9}
+
+   .numberofpages{color: #000;text-align: center;margin-left: 24px;}
+
+   .box {background: #FFF340;color: #000;padding: 1px;font-weight: bold}
+ 
+   .selectedpage {color: #000;font-size: 24px}
+
+   .deselected {color: #878787;}
+
+   .next,.prev{background: #FFF340;color: #000;padding: 1px;font-weight: bold}
+ 
+   /* Button Barchart orange */
+
+   .barchart{position:absolute;left:145px;top:250px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;background:none repeat scroll 0 0 #fc6;border:1px solid #fc6;font-weight:bold;padding:0.5em;text-decoration:none;}
+
+   .barchart a{text-decoration: none;color: #fff}
+
+   .barchart:hover{background: #fff;}
+
+   .barchart:hover a{color:#fc6;font-weight:bold}
+
+   /* Button Barchart lightgreen */
+
+   .barchart2{position:absolute;left:220px;top:250px;;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;background:none repeat scroll 0 0 #99CD2C;border:1px solid #99CD2C;font-weight:bold;padding:0.5em;text-decoration:none;}
+
+   .barchart2 a{text-decoration: none;color: #fff}
+
+   .barchart2:hover{background: #fff;}
+
+   .barchart2:hover a{color:#99CD2C;font-weight:bold}
+
+   /* controls next previous */
+
+   .controls{background: #fff;margin: 20px;width: 90%}
+
+   /* Button Barchart lightblue */
+
+   .barchart3{position:absolute;left:710px;top:250px;;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;background:#2B8FA3;border:1px solid #2B8FA3;font-weight:bold;padding:0.5em;text-decoration:none;}
+
+   .barchart3 a{text-decoration: none;color: #fff}
+
+   .barchart3:hover{background: #fff;}
+
+   .barchart3:hover a{color: #2B8FA3;font-weight:bold}
+
+   /* Button Piechart */
+
+   .piechart{position:absolute;left:790px;top:250px;;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;background:none repeat scroll 0 0 #A950BC;border:1px solid #A950BC;font-weight:bold;padding:0.5em;text-decoration:none;}
+
+   .piechart a{text-decoration: none;color: #fff}
+
+   .piechart:hover{background: #fff;}
+
+   .piechart:hover a{color: #A950BC;font-weight:bold}

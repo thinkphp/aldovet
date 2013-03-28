@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+   <title>Admin</title>
+   <link rel="stylesheet" href="css/reset-fonts-grids.css" type="text/css">
+   <link rel="stylesheet" href="css/base.css" type="text/css">
+   <link rel="stylesheet" href="css/login.css" type="text/css">
+   <script type="text/javascript" src="js/moo-1.2.3.js"></script> 
+   <script type="text/javascript" src="js/shake.js"></script> 
+   <script type="text/javascript" src="js/ajax.js"></script> 
+   <script type="text/javascript" src="js/login.js"></script> 
+
+   <script type="text/javascript">
+
+   window.addEvent('domready',function(){
+
+                //set opacity 0 to login box
+                $('uiDiv').setStyle('opacity',0);
+
+                //create an object 
+		var myAppear = new Fx.Tween('uiDiv',{link:'chain'});
+
+                //run motion to appear tween                
+		myAppear.start('opacity',0,1);
+
+                //get headline
+                var headline = document.getElement('h1');
+
+                //create object
+		var moveInFx = new Fx.Tween(headline, {
+
+			transition: 'elastic:out',
+
+			property: 'margin-left',
+
+			duration: 1000
+
+		}).set(-1200);
+
+                //run motion
+                moveInFx.start.delay(300, moveInFx, [0]);
+
+   });//end DOM ready
+
+  </script> 	
+</head>
+<body>
+<div id="doc" class="yui-t7">
+
+   <div id="hd" role="banner"><center><h1>Admin'page</h1></center></div>
+
+
+   <div id="bd" role="main">
+
+    <div id="uiDiv" class="yui-g">
+      
+      <form id="loginForm" method="post" action="applogin.php">
+
+        <h2>Sign In</h2>
+
+        <div id="promptDiv" class="basePrompt">
+
+          <span id="msgSpan"></span>
+
+          <span id="dotSpan"></span>
+
+        </div> <!-- promptDiv -->
+
+        <div id="fieldDiv">
+
+          <div class="fieldTitle">Login ID:</div>
+
+          <div class="fieldEntry">
+
+            <input type="text" name="LoginId" id="LoginId" size="34" maxlength="100" value="" autocomplete = "OFF" />
+
+          </div>
+
+          <div class="fieldTitle">Password:</div>
+
+          <div class="fieldEntry">
+
+            <input type="password" name="Pass" id="Pass" size="34" maxlength="100" value=""/>
+
+          </div>
+
+        </div> <!-- fieldDiv -->
+
+        <div id="buttonDiv">
+
+          <input type="image" src="images/signin.gif" id="submitButton" name="submitButton" value="SignIn"/>
+
+        </div>
+
+      </form>
+
+     </div>
+
+   </div>
+
+   <div id="ft" role="contentinfo"><p>copyright &copy; 2009 aldovet.ro All rights reserved.</p></div>
+
+</div><!-- end doc -->
+
+</body>
+</html>

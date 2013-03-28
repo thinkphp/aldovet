@@ -1,0 +1,107 @@
+/**
+	Copyright (c) 2009 Adrian Statescu me [at] thinkphp.ro [dot] ro; http://thinkphp.ro
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+*/
+
+#contact-form
+{
+position: relative;
+width:400px;
+height:auto;
+padding:30px;
+}
+
+
+#contact-form p {width:550px;}
+
+#contact-form #txtName
+{
+background:url('images/name-icon.gif');
+background-position:left center;
+background-repeat:no-repeat;
+width:300px;
+padding:5px;
+margin-bottom:10px;
+}
+
+#contact-form #txtEmail
+{
+background:url('images/mail-icon.gif');
+background-position:left center;
+background-repeat:no-repeat;
+width:300px;
+margin-bottom:10px;
+padding:5px;
+}
+
+#contact-form #txtURL
+{
+background:url('images/link-icon.gif');
+background-position:left center;
+background-repeat:no-repeat;
+width: 300px;				
+margin-bottom:10px;
+padding:5px;
+}
+
+#contact-form #txtMessage
+{
+margin-bottom:10px;
+width: 400px
+}
+
+#contact-form #box .validText 
+{
+	background-color: #F1FEDB;
+	border: 1px solid #BDD77F;
+	margin-top: 3px;
+	padding-left: 20px;
+}
+
+#contact-form #box .invalidText
+{
+        background-color: #FEDBE0;
+	border: 1px solid #ff9fad;
+	margin-top: 3px;
+	padding-left: 20px;
+}
+
+#contact-form #btnSubmit ,#btnSubmit2{
+	color: #ffffff;
+	text-decoration: none;
+	background: #5c8d0c url('../images/nav-button-bg.gif') repeat-x;
+	padding: 5px 15px;
+	font: bold 14px/100% Arial, Helvetica, sans-serif;
+	border-top: 1px solid #E6EED0;
+	border-left: 1px solid #AFCD69;
+	border-right: 1px solid #AFCD69;
+}
+
+#contact-form #box label {font-weight:bold;}
+
+#contact-form .invisible {display: none;}
+
+#contact-form .visible {display: '';}
+
+#contact-form #preview{margin: 10px;padding: 10px;}
+
+#contact-form #head_preview {font-size: 25px;font-weight: bold;font-style: normal;font-family: Arial;color: #5c8d0c;border-bottom: 1px dashed #5c8d0c;width: 385px;}
+
+#contact-form #header_contact {font-family: arial;font-size: 23px;color: #000;margin-bottom: 20px;}
